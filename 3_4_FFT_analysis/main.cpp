@@ -17,6 +17,5 @@ int main() {
     }
     for (i = 0; i < sample; i++) {
         pc.printf("%1.3f\r\n", ADCdata[i]);
-        wait(0.1);
     }
 }
